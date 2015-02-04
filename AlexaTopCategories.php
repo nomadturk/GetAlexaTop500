@@ -40,6 +40,6 @@ foreach($parse as $catname)
 		}
 	}
 
-	echo "Wait 5 Seconds before moving on from" $catname, PHP_EOL;
+	echo "Wait 5 Seconds before moving on..." PHP_EOL;
 	sleep(5);
 }
