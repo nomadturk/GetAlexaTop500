@@ -26,7 +26,7 @@ rm -r -f AlexaTop*.txt
 
 # Now, let's dig all those sites. We need them cached in dnsmasq.
 # On my case, 10.0.13.1 is my local dns server
-echo "Time to dig master!"
-dig -f AlexaDigList.txt @10.0.13.1 +nocomments +noauthority +noadditional +nostats  +short +noall
+#echo "Time to dig master!".
+#dig -f AlexaDigList.txt @208.67.220.220 +nocomments +noauthority +noadditional +nostats  +short +noall
 echo "Done..."
 echo  "AlexaDigList.txt file still exists, use it as you see fit."
